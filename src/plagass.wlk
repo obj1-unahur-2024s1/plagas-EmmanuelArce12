@@ -22,3 +22,4 @@ class Mosquitos inherits Plaga{
 	method nivelDeDanio()= poblacion
 	override method trasmitirEnfermedades()= super() and poblacion % 3==0 
 }
+
